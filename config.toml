@@ -1,8 +1,8 @@
-baseURL  =  "https://immmmm.com"
-languageCode = "zh-CN"
-DefaultContentLanguage = "zh-CN"
-title  =  "木木木木木"
-subtitle = "不问明天，悠然浪费"
+baseURL  =  "https://jamxe.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title  =  "Untitled Notes"
+subtitle = ">$ cd /home/ "
 
 theme  =  "hello-friend"
 summaryLength = 140
@@ -22,21 +22,17 @@ rssLimit = 5
 	url="/books/"
 	weight="1"
   [[menu.main]]
-  name="观影"
-  url="/movies/"
-  weight="2"
-  [[menu.main]]
   name="相册"
   url="/photos/"
-  weight="3"
+  weight="2"
   [[menu.main]]
   name="归档"
   url="/archives/"
-  weight="4"
+  weight="3"
   [[menu.main]]
   name="关于"
   url="/about/"
-  weight="5"
+  weight="4"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -54,7 +50,7 @@ rssLimit = 5
   DateFormatSingle = "2006-01-02 15:04:05"
   ReadMore = "阅读全文"
 
-  EditPath = 'https://github.com/lmm214/immmmm/edit/master/content'
+  EditPath = 'https://github.com/jamxe'
 
 [markup]
 [markup.goldmark]
@@ -70,12 +66,12 @@ rssLimit = 5
   baseName = "atom"
 
 [params.valine]
-	enable = false
-    appId = 'm6rxiyixBDG25mYPEPapQpnR-MdYXbMMI'
-    appKey = 'WMokwNAwh9noJ4XeUjVBjsCt'
+	enable = true
+    appId = '7l7br39sXcMmtbhhkFArzaJ0-MdYXbMMI'
+    appKey = 'IiScllic2NNmtvbq2BsOgqr8'
     placeholder = '既然来了，那就留个痕迹吧~'
     visitor = true
-    serverURLs = "https://m6rxiyix.api.lncldglobal.com"
+    serverURLs = "https://powerxe.avosapps.us/"
 
 [params.twikoo]
 	enable = true
